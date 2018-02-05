@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Time</string>
+    <string name="score">النقاط</string>
+    <string name="reset">إعادة</string>
+    <string name="soon">قريباً</string>
+    <string name="q1Math">كم عدد الكرات؟</string>
+    <string name="q2Math">كم عدد الطائرات؟</string>
+    <string name="q3Math">كم عدد الكتب؟</string>
+    <string name="q4Math">كم عدد هؤلاء؟</string>
+    <string name="your_name">اسمك:</string>
+    <string name="your_score">مجموع النقاط</string>
+    <string name="you_win">لقد ربحت :)</string>
+    <string name="you_lose">لقد خسرت :(</string>
+    <string name="science">العلوم</string>
+    <string name="math">الرياضه</string>
+    <string name="programming">البرمجة</string>
+    <string name="other">اخري</string>
+    <string name="ok">حسنناً</string>
+    <string name="name">"   الاسم:   "</string>
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Math">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--bar with(user image + user Name)-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/timon" />
+
+            <TextView
+                android:id="@+id/textView_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/your_name"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+
+        <!--________________Questions__________________-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="8dp"
+            android:layout_weight="1"
+            android:background="#0a5"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <ImageView
+                    android:id="@+id/myimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/q1_math" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q1Math"
+                    style="@style/QuestionStyle"
+                    android:text="@string/q1Math" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroub_q1math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        style="@style/AnswerStyle"
+                        android:text="@string/nine" />
+
+                    <RadioButton
+                        style="@style/AnswerStyle"
+                        android:text="@string/four" />
+
+                    <RadioButton
+                        android:id="@+id/answer_q1Math"
+                        style="@style/AnswerStyle"
+                        android:text="@string/six" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#28379c"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/q2_math" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2Math"
+                    style="@style/QuestionStyle"
+                    android:text="@string/q2Math" />
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroub_q2math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/answer_q2Math"
+                        style="@style/AnswerStyle"
+                        android:text="@string/two" />
+
+                    <RadioButton
+                        style="@style/AnswerStyle"
+                        android:text="@string/seven" />
+
+                    <RadioButton
+                        style="@style/AnswerStyle"
+                        android:text="@string/three" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--part two-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="8dp"
+            android:layout_weight="1"
+            android:background="#0a5"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/q3_math" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q3Math"
+                    style="@style/QuestionStyle"
+                    android:text="@string/q3Math" />
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroub_q3math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        style="@style/AnswerStyle"
+                        android:text="@string/four" />
+
+                    <RadioButton
+                        style="@style/AnswerStyle"
+                        android:text="@string/three" />
+
+                    <RadioButton
+                        android:id="@+id/answer_q3Math"
+                        style="@style/AnswerStyle"
+                        android:text="@string/five" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#28379c"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/q4_math" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q4Math"
+                    style="@style/QuestionStyle"
+                    android:text="@string/q4Math" />
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroub_q4math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        style="@style/AnswerStyle"
+                        android:text="@string/three" />
+
+                    <RadioButton
+                        android:id="@+id/answer_q4Math"
+                        style="@style/AnswerStyle"
+                        android:text="@string/four" />
+
+                    <RadioButton
+                        style="@style/AnswerStyle"
+                        android:text="@string/five" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/score_Btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#cc223f"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:text="@string/score"/>
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#ac7b7b7b"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:text="@string/reset"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

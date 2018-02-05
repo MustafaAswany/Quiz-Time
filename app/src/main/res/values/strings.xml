@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quiz Time</string>
+
+
+    <!-- Score Button -->
+    <string name="score">score</string>
+
+    <!-- Reset Button -->
+    <string name="reset">reset</string>
+
+    <!--questions and answer-->
+    <string name="soon">Soon!</string>
+    <string name="q1Math">How many balls?</string>
+    <string name="nine">9</string>
+    <string name="six">6</string>
+    <string name="q2Math">How many helicopters?</string>
+    <string name="two">2</string>
+    <string name="seven">7</string>
+    <string name="three">3</string>
+    <string name="q3Math">How many Books?</string>
+    <string name="five">5</string>
+    <string name="q4Math">How Many these?</string>
+    <string name="four">4</string>
+    <string name="your_name">Your Name!</string>
+    <string name="your_score">,  Your Score</string>
+    <string name="you_win">You Win :)</string>
+    <string name="you_lose">You lose :(</string>
+    <string name="science">Science</string>
+    <string name="math">Math</string>
+    <string name="programming">Programming</string>
+    <string name="other">Other</string>
+    <string name="ok">Ok</string>
+    <string name="name">Name</string>
+</resources>
