@@ -5,4 +5,12 @@
     <color name="colorPrimaryLight">#3347cc</color>
     <color name="colorAccent">#008ee6</color>
     <color name="backgroundColor">#141d26</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="gray">#ac7b7b7b</color>
+    <color name="red">#cc223f</color>
+    <color name="darkBlue">#28379c</color>
+    <color name="green">#0a5</color>
+    <color name="yellow">#ECBD3F</color>
+
 </resources>

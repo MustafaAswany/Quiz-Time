@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for questions text -->
+    <dimen name="userName_textSize">50sp</dimen>
+
+    <!--=========Q&A [weight = 1 & width = 0] dimens=========-->
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="layout_weight">1dp</dimen>
+
+    <!-- Style for RadioButton answers -->
+    <dimen name="Radio_textSize">20sp</dimen>
+
+    <!-- Style for questions text -->
+    <dimen name="Q_textSize">22sp</dimen>
+
+
+    <!--score and reset Btn-->
+    <dimen name="btn_textSize">20sp</dimen>
+
+    <!--text labels[Type of questions]-->
+    <dimen name="QType_labels">35sp</dimen>
+
+</resources>
