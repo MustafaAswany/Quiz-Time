@@ -11,7 +11,7 @@
     <dimen name="Radio_textSize">20sp</dimen>
 
     <!-- Style for questions text -->
-    <dimen name="Q_textSize">22sp</dimen>
+    <dimen name="Q_textSize">20sp</dimen>
 
 
     <!--score and reset Btn-->

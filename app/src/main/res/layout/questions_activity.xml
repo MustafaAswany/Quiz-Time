@@ -26,14 +26,6 @@
             android:layout_weight="3"
             android:hint="@string/name" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_weight="1"
-            android:text="@string/ok" />
-
     </LinearLayout>
 
     <!--Questions Type-->
@@ -63,10 +55,12 @@
         <LinearLayout style="@style/LinearLayout_For_2imageBtn">
 
             <ImageButton
+                android:id="@+id/programmingBtn"
                 style="@style/imageBtn"
                 android:src="@drawable/programming" />
 
             <ImageButton
+                android:id="@+id/otherBtn"
                 style="@style/imageBtn"
                 android:src="@drawable/other" />
 

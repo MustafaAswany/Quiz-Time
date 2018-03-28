@@ -29,7 +29,44 @@
     <string name="math">Math</string>
     <string name="programming">Programming</string>
     <string name="other">Other</string>
-    <string name="ok">Ok</string>
     <string name="name">Name</string>
     <string name="you_statue">You Statue :)</string>
+    <string name="q1">Which of the following is a method having same name as that of its class?</string>
+    <string name="q1_answer1">constructor</string>
+    <string name="q1_answer2">class</string>
+    <string name="q1_answer3">delete</string>
+    <string name="q1_answer4">finalize</string>
+    <string name="q2">Which of these access specifiers can be used for an interface?</string>
+    <string name="q2_answer1">public</string>
+    <string name="q2_answer2">private</string>
+    <string name="q2_answer3">All of the mentioned</string>
+    <string name="q2_answer4">protected</string>
+    <string name="q3">Which of these method of Object class is used to obtain class of an object at run time?</string>
+    <string name="q3_answer1">None of the mentioned</string>
+    <string name="q3_answer2">class getclass()</string>
+    <string name="q3_answer3">void getclass()</string>
+    <string name="q4">Which operator is considered to be with highest precedence?</string>
+    <string name="q4_answer1">+</string>
+    <string name="q4_answer2">\?</string>
+    <string name="q4_answer3">(),[]</string>
+    <string name="q4_answer4">=</string>
+    <string name="q5">According to you, what is Java?</string>
+    <string name="q5_answer1">A mediator between you and your computer</string>
+    <string name="q5_answer2">A video game console</string>
+    <string name="q5_answer3">A programming language</string>
+    <string name="q6">Which of the following returns a primitive data type?</string>
+    <string name="q6_answer1">Integer.intValue()</string>
+    <string name="q6_answer2">Integer.parseInt()</string>
+    <string name="q6_answer3">Integer.getInteger()</string>
+    <string name="q7">Which of the following are legal identifiers in Java?</string>
+    <string name="q7_answer1">$while</string>
+    <string name="q7_answer2">Abc_1</string>
+    <string name="q7_answer3">1abc</string>
+    <string name="q8">Which of the following are correct regarding method overriding?</string>
+    <string name="q8_answer1">Same name different signature</string>
+    <string name="q8_answer2">Both the methods must not be in the same class</string>
+    <string name="q8_answer3">Same name same signature</string>
+    <string name="q3_answer4">get()</string>
+
+
 </resources>

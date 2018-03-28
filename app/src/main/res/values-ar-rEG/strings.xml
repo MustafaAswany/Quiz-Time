@@ -16,6 +16,5 @@
     <string name="math">الرياضه</string>
     <string name="programming">البرمجة</string>
     <string name="other">اخري</string>
-    <string name="ok">حسنناً</string>
     <string name="name">"   الاسم:   "</string>
 </resources>

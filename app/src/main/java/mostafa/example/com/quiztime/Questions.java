@@ -15,6 +15,8 @@ public class Questions extends AppCompatActivity {
         setContentView(R.layout.questions_activity);
         final EditText userName = findViewById(R.id.editText_name);
         final ImageButton mathBtn = findViewById(R.id.mathButton);
+        final ImageButton programmingBtn = findViewById(R.id.programmingBtn);
+        final ImageButton otherBtn = findViewById(R.id.otherBtn);
 
         mathBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,6 +25,32 @@ public class Questions extends AppCompatActivity {
                 String nameValue=userName.getText().toString();
                 //Start new Activity (math)
                 Intent MIntent = new Intent(Questions.this, Math.class);
+                MIntent.putExtra("name", nameValue);
+                startActivity(MIntent);
+                finish();
+            }
+        });
+
+        programmingBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //get userName from EditText From (MainActivity).
+                String nameValue=userName.getText().toString();
+                //Start new Activity (programming)
+                Intent MIntent = new Intent(Questions.this, programming.class);
+                MIntent.putExtra("name", nameValue);
+                startActivity(MIntent);
+                finish();
+            }
+        });
+
+        otherBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //get userName from EditText From (MainActivity).
+                String nameValue=userName.getText().toString();
+                //Start new Activity (other)
+                Intent MIntent = new Intent(Questions.this, other.class);
                 MIntent.putExtra("name", nameValue);
                 startActivity(MIntent);
                 finish();

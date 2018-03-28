@@ -19,6 +19,7 @@
         <activity android:name=".Math" />
         <activity android:name=".Questions" />
         <activity android:name=".UserStatue" />
+        <activity android:name=".programming" />
     </application>
 
 </manifest>
