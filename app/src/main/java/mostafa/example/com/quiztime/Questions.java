@@ -16,7 +16,6 @@ public class Questions extends AppCompatActivity {
         final EditText userName = findViewById(R.id.editText_name);
         final ImageButton mathBtn = findViewById(R.id.mathButton);
         final ImageButton programmingBtn = findViewById(R.id.programmingBtn);
-        final ImageButton otherBtn = findViewById(R.id.otherBtn);
 
         mathBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,17 +43,5 @@ public class Questions extends AppCompatActivity {
             }
         });
 
-        otherBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //get userName from EditText From (MainActivity).
-                String nameValue=userName.getText().toString();
-                //Start new Activity (other)
-                Intent MIntent = new Intent(Questions.this, other.class);
-                MIntent.putExtra("name", nameValue);
-                startActivity(MIntent);
-                finish();
-            }
-        });
     }
 }
