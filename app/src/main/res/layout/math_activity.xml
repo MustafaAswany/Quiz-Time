@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Math">
+    tools:context=".MathActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,6 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:contentDescription="@string/user_pic"
                 android:src="@drawable/timon" />
 
             <TextView
@@ -37,12 +38,14 @@
 
         <!--________________Questions__________________-->
 
+        <!--Question 1-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginVertical="8dp"
             android:layout_weight="1"
             android:background="@color/green"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -56,6 +59,7 @@
                     android:id="@+id/myimg"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="@string/question1Img"
                     android:src="@drawable/q1_math" />
 
             </LinearLayout>
@@ -69,9 +73,9 @@
                 <TextView
                     android:id="@+id/q1Math"
                     style="@style/QuestionStyle"
+                    android:text="@string/q1Math"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/Q_textSize"
-                    android:text="@string/q1Math" />
+                    android:textSize="@dimen/Q_textSize" />
 
                 <RadioGroup
                     android:id="@+id/radioGroub_q1math"
@@ -97,12 +101,13 @@
 
         </LinearLayout>
 
-
+        <!--Question 2-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/darkBlue"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -115,6 +120,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="@string/question2Img"
                     android:src="@drawable/q2_math" />
 
             </LinearLayout>
@@ -128,9 +134,9 @@
                 <TextView
                     android:id="@+id/q2Math"
                     style="@style/QuestionStyle"
+                    android:text="@string/q2Math"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/Q_textSize"
-                    android:text="@string/q2Math" />
+                    android:textSize="@dimen/Q_textSize" />
 
 
                 <RadioGroup
@@ -156,25 +162,27 @@
 
         </LinearLayout>
 
-        <!--part two-->
-
+        <!--Question 3-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginVertical="8dp"
             android:layout_weight="1"
             android:background="@color/green"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="@string/question3Img"
                     android:src="@drawable/q3_math" />
 
             </LinearLayout>
@@ -188,9 +196,9 @@
                 <TextView
                     android:id="@+id/q3Math"
                     style="@style/QuestionStyle"
+                    android:text="@string/q3Math"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/Q_textSize"
-                    android:text="@string/q3Math" />
+                    android:textSize="@dimen/Q_textSize" />
 
 
                 <RadioGroup
@@ -216,23 +224,26 @@
 
         </LinearLayout>
 
-
+        <!--Question 4-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@color/darkBlue"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="@string/question4Img"
                     android:src="@drawable/q4_math" />
 
             </LinearLayout>
@@ -246,9 +257,9 @@
                 <TextView
                     android:id="@+id/q4Math"
                     style="@style/QuestionStyle"
+                    android:text="@string/q4Math"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/Q_textSize"
-                    android:text="@string/q4Math" />
+                    android:textSize="@dimen/Q_textSize" />
 
 
                 <RadioGroup
@@ -273,29 +284,136 @@
             </LinearLayout>
 
         </LinearLayout>
+
+        <!--Question 5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="8dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/question2Img"
+                    android:src="@drawable/q5_math" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q5Math"
+                    style="@style/QuestionStyle"
+                    android:text="@string/q1Math"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/Q_textSize" />
+
+
+                <EditText
+                    android:id="@+id/answer_q5Math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:background="@color/openGreen"
+                    android:hint="@string/four4"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Question 6-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="8dp"
+            android:layout_weight="1"
+            android:background="@color/darkBlue"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/question_6_number_700"
+                    android:src="@drawable/seven_h" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q6Math"
+                    style="@style/QuestionStyle"
+                    android:text="@string/q6_math"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/Q_textSize" />
+
+                <EditText
+                    android:id="@+id/answer_q6Math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:background="@color/openGreen"
+                    android:hint="@string/type_the_number"
+                    android:inputType="number"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--score Button And Reset Button-->
         <LinearLayout
             style="@style/match_parent"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
+
+            <!--score Button-->
             <Button
                 android:id="@+id/score_Btn"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@color/red"
+                android:text="@string/score"
                 android:textColor="@color/white"
                 android:textSize="@dimen/btn_textSize"
-                android:text="@string/score"/>
+                tools:ignore="ButtonStyle" />
 
+            <!--Reset Button-->
             <Button
                 android:id="@+id/reset"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@color/gray"
+                android:text="@string/reset"
                 android:textColor="@color/white"
                 android:textSize="@dimen/btn_textSize"
-                android:text="@string/reset"/>
+                tools:ignore="ButtonStyle" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

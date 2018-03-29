@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="mostafa.example.com.quiztime.programming">
+    tools:context="mostafa.example.com.quiztime.ProgrammingActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -315,19 +315,23 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <!--True answer-->
                 <CheckBox
-                    android:id="@+id/answer_q5_Programming_C1"
+                    android:id="@+id/answer_q5_CheckBoxA"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q5_answer1" />
 
+                <!--False answer-->
                 <CheckBox
+                    android:id="@+id/answer_q5_CheckBoxB"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q5_answer2" />
 
+                <!--True answer-->
                 <CheckBox
-                    android:id="@+id/answer_q5_Programming_C2"
+                    android:id="@+id/answer_q5_CheckBoxC"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q5_answer3" />
@@ -369,19 +373,22 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <!--true-->
                 <CheckBox
-                    android:id="@+id/answer_q6_Programming_C1"
+                    android:id="@+id/answer_q6_CheckBoxA"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q6_answer1" />
 
                 <CheckBox
+                    android:id="@+id/answer_q6_CheckBoxB"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q6_answer2" />
 
+                <!--true-->
                 <CheckBox
-                    android:id="@+id/answer_q6_Programming_C2"
+                    android:id="@+id/answer_q6_CheckBoxC"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q6_answer3" />
@@ -422,19 +429,22 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <!--true-->
                 <CheckBox
-                    android:id="@+id/answer_q7_Programming_C1"
+                    android:id="@+id/answer_q7_CheckBoxA"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q7_answer1" />
 
+                <!--true-->
                 <CheckBox
-                    android:id="@+id/answer_q7_Programming_C2"
+                    android:id="@+id/answer_q7_CheckBoxB"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q7_answer2" />
 
                 <CheckBox
+                    android:id="@+id/answer_q7_CheckBoxC"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q7_answer3" />
@@ -456,7 +466,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
 
                 <TextView
                     android:id="@+id/q8_Programming"
@@ -475,24 +486,120 @@
                 android:orientation="vertical">
 
                 <CheckBox
+                    android:id="@+id/answer_q8_CheckBoxA"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q8_answer1" />
 
+                <!--true-->
                 <CheckBox
-                    android:id="@+id/answer_q8_Programming_C1"
+                    android:id="@+id/answer_q8_CheckBoxB"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q8_answer2" />
 
+                <!--true-->
                 <CheckBox
-                    android:id="@+id/answer_q8_Programming_C2"
+                    android:id="@+id/answer_q8_CheckBoxC"
                     style="@style/match_parent"
                     android:layout_weight="1"
                     android:text="@string/q8_answer3" />
 
             </LinearLayout>
         </LinearLayout>
+
+        <!--question 9-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="4dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/q9_Other"
+                    style="@style/QuestionStyle"
+                    android:layout_marginStart="18dp"
+                    android:text="@string/q9"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/Q_textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/answer_q9Programming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:background="@color/openGreen"
+                    android:hint="@string/ko_n"
+                    android:inputType="text"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--question 10-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="4dp"
+            android:layout_weight="1"
+            android:background="@color/darkBlue"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/q10_Other"
+                    style="@style/QuestionStyle"
+                    android:layout_marginStart="18dp"
+                    android:text="@string/q10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/Q_textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/answer_q10Programming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:background="@color/openGreen"
+                    android:hint="@string/ud_y"
+                    android:inputType="text"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
         <!--================-->
         <LinearLayout
             style="@style/match_parent"

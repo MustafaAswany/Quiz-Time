@@ -13,13 +13,13 @@
     <string name="q1Math">How many balls?</string>
     <string name="nine">9</string>
     <string name="six">6</string>
-    <string name="q2Math">How many helicopters?</string>
+    <string name="q2Math">How many Helicopters?</string>
     <string name="two">2</string>
     <string name="seven">7</string>
     <string name="three">3</string>
     <string name="q3Math">How many Books?</string>
     <string name="five">5</string>
-    <string name="q4Math">How Many these?</string>
+    <string name="q4Math">How many girls you see?</string>
     <string name="four">4</string>
     <string name="your_name">Your Name!</string>
     <string name="your_score">,  Your Score</string>
@@ -67,6 +67,25 @@
     <string name="q8_answer2">Both the methods must not be in the same class</string>
     <string name="q8_answer3">Same name same signature</string>
     <string name="q3_answer4">get()</string>
+    <string name="user_pic">user pic</string>
+    <string name="question1Img">The first question</string>
+    <string name="question2Img">The second question</string>
+    <string name="question3Img">The third question</string>
+    <string name="question4Img">The fours question</string>
+    <string name="four4">f…r</string>
+    <string name="q6_math">Type this number?</string>
+    <string name="question_6_number_700">question 6 number 700</string>
+    <string name="type_the_number">type the number!</string>
+    <string name="math_questions">math questions</string>
+    <string name="science_questions">science questions</string>
+    <string name="programming_questions">programming questions</string>
+    <string name="general_questions">general questions</string>
+    <string name="soon_questions">soon questions</string>
+    <string name="user_statue_background">user Statue Background</string>
+    <string name="q9">Type a new language name that will be used instead of Java</string>
+    <string name="ko_n">Ko...n</string>
+    <string name="q10">What is the best educational site in the world?</string>
+    <string name="ud_y">ud....y</string>
 
 
 </resources>

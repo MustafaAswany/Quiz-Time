@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/winnerActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#35c46e"
-    android:id="@+id/winnerActivity"
-    tools:context=".UserStatue">
+    tools:context=".UserStatueActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/lay"
-        android:scaleType="centerCrop"/>
+        android:contentDescription="@string/user_statue_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lay" />
+
     <ImageView
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="110dp"
+        android:contentDescription="@string/user_pic"
         android:src="@drawable/timon" />
+
     <TextView
         android:id="@+id/textFor_Winner"
         android:layout_width="match_parent"

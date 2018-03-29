@@ -14,7 +14,7 @@ import android.widget.TextView;
 import static android.R.color.holo_red_dark;
 import static android.graphics.Color.rgb;
 
-public class UserStatue extends AppCompatActivity {
+public class UserStatueActivity extends AppCompatActivity {
 
     @SuppressLint("ResourceAsColor")
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)

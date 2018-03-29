@@ -108,12 +108,14 @@
 
                 <TextView
                     style="@style/QTypes_label"
+                    android:layout_marginStart="100dp"
                     android:text="@string/math"
                     android:textSize="@dimen/QType_labels"
                     tools:ignore="NestedWeights" />
 
                 <TextView
                     style="@style/QTypes_label"
+                    android:layout_marginStart="100dp"
                     android:text="@string/science"
                     android:textSize="@dimen/QType_labels" />
 
@@ -123,6 +125,7 @@
 
                 <TextView
                     style="@style/QTypes_label"
+                    android:layout_marginStart="100dp"
                     android:text="@string/programming"
                     android:textSize="21sp"
                     tools:ignore="NestedWeights" />
@@ -130,7 +133,7 @@
 
                 <TextView
                     style="@style/QTypes_label"
-
+                    android:layout_marginStart="100dp"
                     android:text="@string/other"
                     android:textSize="@dimen/QType_labels" />
 
@@ -141,6 +144,7 @@
 
                 <TextView
                     style="@style/QTypes_label"
+                    android:layout_marginStart="100dp"
                     android:text="@string/soon"
                     android:textSize="@dimen/QType_labels"
                     tools:ignore="NestedWeights" />
@@ -148,6 +152,7 @@
 
                 <TextView
                     style="@style/QTypes_label"
+                    android:layout_marginStart="100dp"
                     android:text="@string/soon"
                     android:textSize="@dimen/QType_labels" />
             </LinearLayout>
